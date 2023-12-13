@@ -3,130 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theo Drackett's Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Theo Drackett</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <div class="profile-pic"><img src="./assets/images/my_profile_pic.png" height="150" alt="Pic of Theo Drackett">
-        <h1 class="name">Theo Drackett</h1>
-        <a class="contact-me" href="./public/contact.html">Contact Me</a>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./resume.html">Contact me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">My Projects</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./public/svh-iphone.html">Street Vendor Helper iPhone</a></li>
+                  <li><a class="dropdown-item" href="./public/svh-android.html">Street Vendor Helper Android</a></li>
+                  <li><a class="dropdown-item" href="./public/hobbies.html">Hobbies</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./assets/images/my_profile_pic.png" class="d-block mx-lg-auto img-fluid" alt="Theo profile pic" height="100" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Theo - Software Developer in Test</h1>
+                <p class="lead">I have been performing manual and automated testing on frontend and backend software for over 15 years.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
     
-    <div>
-    <h2>Personal Summary</h2>
-    <p>
-        Results-driven and meticulous QA Automation engineer with over 15 years’ experience in  <br>
-        multiple languages, operating systems, and testing frameworks. Proven ability to design test <br>
-        plans and test cases; identify and report bugs, configure test environments from the ground up; <br>
-        and collaborate with development team to reach the best solutions. Possess excellent <br>
-        documentation and communication skills, alongside an ability to formulate, advise and <br>
-        implement testing strategies. Ability to interact with individuals at all levels. Experienced at <br>
-        automating test cases using Cypress, JavaScript, Python, JAVA, and Selenium. Possesses a strong work <br>
-        ethic and a willingness to learn and work with and mentor others.
-    </p>
-    <h2>KEY SKILLS AND CORE COMPETENCIES</h2>
-    <ul>
-        <li>Develop automation test using Python, Cypress and JavaScript.</li>
-        <li>Develop automation test using Java and Selenium.</li>
-        <li>Execute manual and automated tests against HPE storage systems.</li>
-        <li>Strong communication, organization, and troubleshooting skills with a keen attention <br>
-            to details.</li>
-        <li>Documentation, defect tracking and information flow of multiple projects during each <br>
-            QA cycle.</li>
-        <li>Collaborate with cross-functional teams to identify and develop test cases for unit, <br>
-            integration and E2E testing.</li>
-        <li>Strong knowledge and understanding of industry standards, SDLC, Agile, SCRUM and <br>
-            QA metrics.</li>
-        <li>Execute responsibilities in a timely manner and ensuring tasks performed are <br>
-            consistent with established company priorities.</li>
-        <li>Providing reports and status dashboards to management on the automation sprint <br>
-            backlog, timing, schedules, and results.</li>
-        <li>Writing white papers and updating compatibility matrices at the end of each <br>
-            development cycle.</li>
-
-    </ul>
-    <h2>Education</h2>
-    <ul>
-        <li>B.S., Business/Information Systems, University of Phoenix</li>
-        <li>Computer Science - Associate degree, Mount Royal University</li>
-        <li>AWS Certified Cloud Practitioner</li>
-    </ul>
-    <h2>Work Experience</h2>
-    <ul>
-        <li>
-            <p>
-                <h3>Cisco-Meraki, San Francisco, CA</h3>
-                <h6>Oct 2021 To: Oct 2023</h6>
-                <ul>
-                    <li>Develop automation tests using Cypress, TypeScript, and JavaScript</li>
-                    <li>Schedule and maintain test scripts using GitLab and Visual Studio Code</li>
-                    <li>Research and assist in the implementation of automation frameworks</li>
-                    <li>Install, configure, and provision Meraki switches, security, and wireless devices</li>
-                    <li>Create Organizations, Networks and configure them for automation testing</li>
-                    <li>Design comprehensive test plans, test cases, and check lists in accordance with business, <br>
-                        engineering, database, and scalability requirements</li>
-                    <li>Manage testing and release schedules by planning test cycles, tracking test results and <br>
-                        reporting bugs in the software to the development team</li>
-                    <li>Create, track, and resolve bugs via Jira</li>
-                    <li>Track and report on testing status using TestRail and Sorry Cypress</li>
-                    <li>Communicate with product teams and developers throughout the testing cycle to discuss <br>
-                        defects, devise solutions and provide updates</li>
-                </ul>
-                
-            </p>
-            <p>
-                <h3>Hewlett Packard, San Jose, CA</h3>
-                <h6>Apr 2011 To: Oct 2021</h6>
-                <ul>
-                    <li>Developed automation test using Python, JAVA, Selenium and JavaScript</li>
-                    <li>Researched and assisted in the implementation of automation frameworks</li>
-                    <li>Installed, configured, and provisioned 3PAR HPE Storage Systems, SAN interconnects <br>
-                        such as FC, FCoE and iSCSI switches: Cisco, Brocade and HP</li>
-                    <li>Managed the installation and configuration of VMware ESXi, Windows, Red Hat, SuSe, <br>
-                        Solaris and HP/UX servers in both local boot and boot from SAN configurations</li>
-                    <li>Defined test strategies and create test plans, test cases and reports</li>
-                    <li>Design comprehensive test plans, test cases, and check lists in accordance with <br>
-                        business, engineering, database, and scalability requirements</li>
-                    <li>Managed testing and release schedules by planning test cycles, tracking test results and <br>
-                        reporting bugs in the software to the development team</li>
-                    <li>Complete partner certifications for the HPE Storage systems on VMware and Microsoft</li>
-                    <li>Track and report on testing status using TestRail and Sorry Cypress</li>
-                    <li>Communicated with product teams and developers throughout the testing cycle to <br>
-                        discuss defects, devise solutions and provide updates</li>
-                </ul>
-                
-            </p>
-            <h3>LANGUAGES</h3>
-            <ul>
-                <li>Cypress</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Selenium</li>
-                <li>JAVA</li>
-                <li>SWIFT</li>
-                <li>Kotlin</li>
-            </ul>
-            <h3>FRAMEWORKS</h3>
-            <ul>
-                <li>Jira</li>
-                <li>GitLab</li>
-                <li>GitHub</li>
-                <li>Jenkins</li>
-                <li>ALM</li>
-                <li>TestNG</li>
-                <li>Agile SCRUM</li>
-            </ul>
-            <h3>PLATFORMS</h3>
-            <ul>
-                <li>VMware</li>
-                <li>Windows</li>
-                <li>Linux</li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    <h3><a href="./public/hobbies.html">Hobbies and projects</a></h3>
-</div>
 </body>
 </html>
